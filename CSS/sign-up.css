@@ -1,0 +1,72 @@
+*{
+    --primary-color: #A75D5D;
+    --secondary-color: #D3756B;
+    --accent-color: #F0997D;
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lora', serif;
+    justify-content: center;
+    align-items: center;
+    display:flex;
+    height: 100vh;
+    background-color: var(--primary-color);
+}
+.grid{
+    display: flex;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    padding: 20px;
+    width: 100%;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 10px;
+    max-width: 400px;
+    background-color: var(--secondary-color);
+}
+h1{
+    text-align: center;
+    color: var(--accent-color)
+}
+.formgroup{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0;
+}
+label{
+    display:block;
+}
+a{
+    color:#A75D5D;
+    opacity: 1;
+    text-decoration: none; 
+}
+.formgroup input{
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: var(--accent-color);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    color: var(--primary-color);
+    cursor: pointer;
+}
+::placeholder {
+    color:#A75D5D;
+    opacity: 1;
+  }
+  
+button{
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 5px;
+    background-color: var(--accent-color);
+    color:#A75D5D
+}
+p{
+    text-align: center;
+    color:#A75D5D
+}
